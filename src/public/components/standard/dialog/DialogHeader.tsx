@@ -4,14 +4,10 @@ import { Button, ButtonVariant } from "../button/Button";
 type IDialogHeaderProps = {
   onCancel(): void;
   variant: DialogHeaderVariant.CANCEL;
-} |
-{
-  variant: DialogHeaderVariant.NONE;
 }
 
 export enum DialogHeaderVariant {
-  CANCEL,
-  NONE
+  CANCEL
 }
 
 const style: React.CSSProperties = {
