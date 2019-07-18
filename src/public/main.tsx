@@ -1,11 +1,11 @@
 import * as React from "react";
 import { render } from "react-dom";
-import { Button, ButtonVariant } from "./components/button/Button";
+import { Button, ButtonVariant } from "./components/standard/button/Button";
 import { BadButton } from "./components/badButton/BadButton";
 import { BadButton2 } from "./components/badButton/BadButton2";
-import { Dialog } from "./components/dialog/Dialog";
-import { DialogFooterVariant, DialogFooter } from "./components/dialog/DialogFooter";
-import { DialogHeaderVariant, DialogHeader } from "./components/dialog/DialogHeader";
+import { Dialog } from "./components/standard/dialog/Dialog";
+import { DialogFooterVariant, DialogFooter } from "./components/standard/dialog/DialogFooter";
+import { DialogHeaderVariant, DialogHeader } from "./components/standard/dialog/DialogHeader";
 
 const omg = () => alert("omg");
 

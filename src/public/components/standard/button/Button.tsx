@@ -2,7 +2,7 @@ import React, { DetailedHTMLProps, ButtonHTMLAttributes } from "react";
 import { baseStyles } from "./BaseStyles";
 import { primaryButtonStyles } from "./PrimaryButtonStyles";
 import { secondaryButtonStyles } from "./SecondaryButtonStyles";
-import { unreachable } from "../../utils";
+import { unreachable } from "../../../utils";
 
 export enum ButtonVariant {
   PRIMARY = "PRIMARY",

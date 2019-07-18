@@ -1,6 +1,6 @@
 import * as React from "react";
 import { render } from "react-dom";
-import { Button, ButtonVariant } from "./components/button/Button";
+import { Button, ButtonVariant } from "./components/standard/button/Button";
 import { BadButton } from "./components/badButton/BadButton";
 
 const omg = () => alert("omg");
