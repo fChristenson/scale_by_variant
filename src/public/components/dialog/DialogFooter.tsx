@@ -21,7 +21,7 @@ const style: React.CSSProperties = {
   justifyContent: "flex-end"
 }
 
-export class DialogFooter extends React.PureComponent<IDialogFooterProps> {
+export class DialogFooter extends React.Component<IDialogFooterProps> {
   render() {
     return <footer style={style}>
       {this.props.variant === DialogFooterVariant.CANCEL_CONFIRM && <Button onClick={this.props.onCancel} variant={ButtonVariant.SECONDARY}>Cancel</Button>}

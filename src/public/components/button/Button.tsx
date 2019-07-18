@@ -26,7 +26,7 @@ const getVariantStyles = (variant: ButtonVariant = ButtonVariant.PRIMARY): objec
   }
 }
 
-export class Button extends React.PureComponent<IButtonProps> {
+export class Button extends React.Component<IButtonProps> {
   render() {
     const variantStyles = getVariantStyles(this.props.variant);
     const style = { ...baseStyles, ...variantStyles };

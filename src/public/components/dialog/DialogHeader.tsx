@@ -19,7 +19,7 @@ const style: React.CSSProperties = {
   justifyContent: "flex-end"
 }
 
-export class DialogHeader extends React.PureComponent<IDialogHeaderProps> {
+export class DialogHeader extends React.Component<IDialogHeaderProps> {
   render() {
     return <header style={style}>
       {this.props.variant === DialogHeaderVariant.CANCEL && <Button onClick={this.props.onCancel} variant={ButtonVariant.SECONDARY}>X</Button>}
